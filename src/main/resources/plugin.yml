@@ -1,0 +1,17 @@
+name: Efekt
+main: me.efekt.EfektPlugin
+version: 1.0.0
+api-version: '1.21'
+author: Efekt
+description: Modern Paper 1.21.8 plugin
+softdepend:
+  - Vault
+commands:
+  efekt:
+    description: Efekt ana komutu
+    usage: /efekt give <balta|kazma|kurek|cubuk|kova> <oyuncu> <miktar>
+    permission: efekt.admin
+permissions:
+  efekt.admin:
+    default: op
+
